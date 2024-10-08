@@ -9,3 +9,6 @@ def generate_prime_factors(value):
     if value == 1:
         prime_factors_list = []
         return prime_factors_list
+    if value == 2:
+        prime_factors_list = [2]
+        return prime_factors_list
