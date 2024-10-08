@@ -69,4 +69,15 @@ def test_generate_prime_factors_list_23_when_6_passed():
     assert six_test_list == prime.generate_prime_factors(6)
 
 
+"""
+Step #7
+Return list [2, 2, 2] when 8 is passed.
+"""
+
+
+def test_generate_prime_factors_list_222_when_8_passed():
+    eight_test_list = [2, 2, 2]
+    assert eight_test_list == prime.generate_prime_factors(8)
+
+
 
