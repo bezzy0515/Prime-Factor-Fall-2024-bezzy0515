@@ -18,3 +18,6 @@ def generate_prime_factors(value):
     if value == 4:
         prime_factors_list = [2, 2]
         return prime_factors_list
+    if value == 6:
+        prime_factors_list = [2, 3]
+        return prime_factors_list

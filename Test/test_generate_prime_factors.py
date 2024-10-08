@@ -56,3 +56,14 @@ Return list [2, 2] when 4 is passed.
 def test_generate_prime_factors_list_22_when_4_passed():
     four_test_list = [2, 2]
     assert four_test_list == prime.generate_prime_factors(4)
+
+
+"""
+Step #6
+Return list [2, 3] when 6 is passed.
+"""
+
+
+def test_generate_prime_factors_list_23_when_6_passed():
+    six_test_list = [2, 3]
+    assert six_test_list == prime.generate_prime_factors(6)
