@@ -36,4 +36,15 @@ def test_generate_prime_factors_list_2_when_2_passed():
     assert two_test_list == prime.generate_prime_factors(2)
 
 
+"""
+Step #4
+Return list [3] when 3 is passed
+"""
+
+
+def test_generate_prime_factors_list_3_when_3_passed():
+    three_test_list = [3]
+    assert three_test_list == prime.generate_prime_factors(3)
+
+
 
