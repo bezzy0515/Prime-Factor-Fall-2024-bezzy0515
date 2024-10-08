@@ -21,5 +21,19 @@ Return empty list when 1 is passed.
 
 
 def test_empty_list_ret_with_1_passed():
-    my_null_test_list = []
-    assert my_null_test_list == prime.generate_prime_factors(1)
+    null_test_list = []
+    assert null_test_list == prime.generate_prime_factors(1)
+
+
+"""
+Step #3
+Return list [2] when 2 is passed
+"""
+
+
+def test_generate_prime_factors_list_2_when_2_passed():
+    two_test_list = [2]
+    assert two_test_list == prime.generate_prime_factors(2)
+
+
+
