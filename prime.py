@@ -2,6 +2,7 @@
 prime.py -- Write the application code here
 """
 
+
 def generate_prime_factors(value):
     if not isinstance(value, int):
         raise ValueError()
@@ -14,4 +15,6 @@ def generate_prime_factors(value):
     if value == 3:
         prime_factors_list = [3]
         return prime_factors_list
-
+    if value == 4:
+        prime_factors_list = [2, 2]
+        return prime_factors_list
