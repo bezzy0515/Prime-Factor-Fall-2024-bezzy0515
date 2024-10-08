@@ -12,3 +12,14 @@ def test_data_not_integer():
         prime.generate_prime_factors("test")
     with pytest.raises(ValueError):
         prime.generate_prime_factors(4.3)
+
+
+"""
+Step #
+Return empty list when 1 is passed.
+"""
+
+
+def test_empty_list_ret_with_1_passed():
+    my_null_test_list = []
+    assert my_null_test_list == prime.generate_prime_factors(1)
